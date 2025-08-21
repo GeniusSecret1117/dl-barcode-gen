@@ -1,0 +1,37 @@
+2025-08-21 13:14:49,527 [INFO] Starting GUI...
+2025-08-21 13:14:49,556 [INFO] GUI loaded successfully. Entering mainloop...
+2025-08-21 13:14:51,166 [INFO] decode_image() called
+2025-08-21 13:14:52,824 [INFO] Selected file for decoding: D:/Account_Info/my resume/Real data/Michael Nicholas Taylor/Michael Taylor USA/Michael Taylor USA/2.jpg
+2025-08-21 13:14:52,825 [DEBUG] Sending file to ZXing...
+2025-08-21 13:14:52,827 [DEBUG] Starting new HTTPS connection (1): zxing.org:443
+2025-08-21 13:14:54,828 [DEBUG] https://zxing.org:443 "POST /w/decode.jspx HTTP/1.1" 200 1973
+2025-08-21 13:14:54,829 [DEBUG] Received response from ZXing
+2025-08-21 13:14:54,831 [INFO] Decoded text: Decode failed...
+2025-08-21 13:16:09,663 [INFO] Starting GUI...
+2025-08-21 13:16:09,692 [INFO] GUI loaded successfully. Entering mainloop...
+2025-08-21 13:16:11,284 [INFO] decode_image() called
+2025-08-21 13:16:12,574 [INFO] Selected file for decoding: D:/Account_Info/my resume/Real data/Michael Nicholas Taylor/Michael Taylor USA/Michael Taylor USA/2.jpg
+2025-08-21 13:16:12,575 [DEBUG] Sending file to ZXing...
+2025-08-21 13:16:12,576 [DEBUG] Starting new HTTPS connection (1): zxing.org:443
+2025-08-21 13:16:16,265 [DEBUG] https://zxing.org:443 "POST /w/decode HTTP/1.1" 200 1409
+2025-08-21 13:16:16,266 [DEBUG] Received response from ZXing
+2025-08-21 13:16:16,269 [INFO] Decoded text: @
+\ufffdANSI 636032030102DL00410226ZM02670027DLDCA
+DCB
+DCD
+DBA11182028
+DCSTAYLOR
+DCTMICHAEL NICHOLAS
+DBD...
+2025-08-21 13:16:20,300 [INFO] generate_barcode() called
+2025-08-21 13:16:20,300 [DEBUG] Encoding text into PDF417: @
+\ufffdANSI 636032030102DL00410226ZM02670027DLDCA
+DCB
+DCD
+DBA11182028
+DCSTAYLOR
+DCTMICHAEL NICHOLAS
+DBD...
+2025-08-21 13:16:20,329 [DEBUG] STREAM b'IHDR' 16 13
+2025-08-21 13:16:20,329 [DEBUG] STREAM b'IDAT' 41 4241
+2025-08-21 13:16:20,361 [INFO] PDF417 barcode saved as output_pdf417.png
