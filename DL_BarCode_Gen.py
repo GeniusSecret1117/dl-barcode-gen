@@ -81,8 +81,11 @@ def generate_barcode():
         barcode_label.config(image=tk_image)
         barcode_label.image = tk_image
 
-        pil_image.save("output/output_pdf417.png")
-        logging.info("PDF417 barcode saved as output_pdf417.png")
+        # Ensure output directory exists
+        os.makedirs("output", exist_ok=True)
+        output_path = os.path.join("output", "output_pdf417.png")
+        pil_image.save(output_path)
+        logging.info(f"PDF417 barcode saved as {output_path}")
 
         messagebox.showinfo("Saved", "PDF417 barcode saved as output_pdf417.png")
 
